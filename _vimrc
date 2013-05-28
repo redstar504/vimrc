@@ -6,6 +6,7 @@ set autochdir
 set wrap
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 let g:netrw_ftp_cmd= "ftp -p"
+set noswapfile
 
 " Easier split navigation
 nmap <silent> <c-k> :wincmd k<CR>

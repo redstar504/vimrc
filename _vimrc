@@ -16,3 +16,6 @@ nmap <silent> <c-l> :wincmd l<CR>
 
 " Support for twig (jinja)
 au BufRead,BufNewFile {*.twig} set ft=htmljinja
+
+" Disable HTML link highlighting
+hi link htmlLink NONE

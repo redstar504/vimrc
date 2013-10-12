@@ -19,3 +19,5 @@ au BufRead,BufNewFile {*.twig} set ft=htmljinja
 
 " Disable HTML link highlighting
 hi link htmlLink NONE
+
+filetype plugin on
